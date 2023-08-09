@@ -1,1 +1,15 @@
+# north rules
+0 x*** -> N 3
+0 N*** -> X 1
 
+# west rules
+1 **x* -> W 0
+1 **W* -> X 2
+
+# south rules
+2 ***x -> S 1
+2 ***S -> X 3
+
+# east rules
+3 *x** -> E 2
+3 *E** -> X 0
